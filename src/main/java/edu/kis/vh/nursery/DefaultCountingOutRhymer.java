@@ -13,6 +13,10 @@ public class DefaultCountingOutRhymer {
             numbers[++total] = in;
     }
 
+    public int getTotal() {
+        return total;
+    }
+
     public boolean callCheck() {
         return total == EMPTY_RHYMER_INDICATOR;
     }
